@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <header></header>
+    <Header />
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
     
   }
 }
 </script>
 
 <style lang="scss">
-@import "./assets/scss/style.scss"
+
+  @import "./assets/scss/style.scss"
+  
+
 </style>
